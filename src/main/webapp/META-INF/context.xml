@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/locadora-veiculo-web">
+  <Manager pathname=""/>
+  <Resource auth="Container" factory="org.jboss.weld.resources.ManagerObjectFactory" name="BeanManager" type="javax.enterprise.inject.spi.BeanManager"/>
+  <Resource auth="Container" driverClass="com.mysql.jdbc.Driver" factory="org.apache.naming.factory.BeanFactory" jdbcUrl="jdbc:mysql://localhost:3306/locadora" maxPoolSize="2" minPoolSize="2" name="jdbc/locadoraDB" password="root" type="com.mchange.v2.c3p0.ComboPooledDataSource" user="root"/>
+</Context>
